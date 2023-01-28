@@ -80,6 +80,9 @@ button {
 }
 
 @media screen and (max-width: 705px) {
+  body {
+    height: 100vh;
+  }
   .container {
     width: 500px;
   }
