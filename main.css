@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+.container {
+  background-image: url(./img/ping.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 700px;
+  padding: 10px 25px 50px;
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 60px;
+}
+.players {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.number1,
+.number2 {
+  color: blue;
+  text-align: center;
+  font-size: 100px;
+}
+.and {
+  font-size: 50px;
+}
+.type {
+  margin: 0 auto;
+  width: 150px;
+  margin-bottom: 25px;
+}
+
+.select {
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  color: blueviolet;
+  font-size: 20px;
+  margin: 0 auto;
+  border-radius: 25px;
+  background-color: transparent;
+}
+
+.plays {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+button {
+  width: 200px;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.resets {
+  margin: 0 auto;
+  width: 200px;
+}
+.reset {
+  background-color: red;
+  color: #fff;
+}
+
+@media screen and (max-width: 705px) {
+  .container {
+    width: 500px;
+  }
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+  .number1,
+  .number2 {
+    font-size: 50px;
+  }
+  button {
+    width: 150px;
+    font-size: 15px;
+  }
+  .resets {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 505px) {
+  .container {
+    width: 350px;
+  }
+  button {
+    width: 120px;
+    font-size: 13px;
+  }
+  .resets {
+    width: 120px;
+  }
+}
